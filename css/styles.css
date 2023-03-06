@@ -388,7 +388,9 @@ button {
 .customers-list {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 0px;
   gap: 24px;
 }
 
@@ -400,11 +402,6 @@ button {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
-}
-
-.customers {
-  padding-top: 130px;
-  padding-bottom: 120px;
 }
 
 .customers-pic {
